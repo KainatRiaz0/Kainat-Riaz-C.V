@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<style>
+          /*========= Body Section========== */
+    body{
+        text-align: center;
+        font-weight: bold;
+        background-image: url("images/download.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 100%;
+    }
+               /* ========Input Section========*/
+    input {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 40%;
+        height: 45px;
+        color: black;
+    }
+              /* ========TextArea Section========*/
+    textarea {
+        width: 40%;
+    }
+                /*========Meta Section========*/
+    #meta{
+        width: 10%;
+    } 
+               /*========Holder Section========*/
+    .holder {
+        border: none;
+        outline: none;
+        background: transparent;
+        border-bottom: 1px solid grey;
+        color: black;
+        font-size: 15px;
+    }
+</style>
+<body>
+    <div class="title">
+        <h1>Contact Me</h1>
+    </div>
+    <div class="contact">
+        <form>
+            <input type="text" class="holder" name="First Name" placeholder="First Name" required>
+            <br>
+            <br>
+            <input type="text" class="holder" name="Last Name" placeholder="Last Name" required>
+            <br>
+            <br>
+            <input type="text" class="holder" name="Email" placeholder="Enter Your Valid Email" required>
+            <br>
+            <br>
+            <textarea name="Message" class="holder" cols="30" rows="5" placeholder="Message" required></textarea>
+            <br>
+            <br>
+            <input type="Submit" name="Value" class="holder" id="meta" value="Send Message">
+        </form>
+    </div>
+</body>
+</html>
